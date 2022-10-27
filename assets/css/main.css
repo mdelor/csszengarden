@@ -1,34 +1,50 @@
+@font-face {
+    font-family: 'ASTERA';
+    src: url('../fonts/ASTERA.woff2') format('woff2'),
+        url('../fonts/ASTERA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 body {
-    background: url(/assets/background.jpg) fixed;
+    background: url(https://img.freepik.com/free-photo/beautiful-shining-stars-night-sky_181624-622.jpg?w=1380&t=st=1666876814~exp=1666877414~hmac=aab9e5d66ebe4565e70ada53a6f7cbed330f152fdedaf173d125b2dadb53fd6f) fixed;
     background-position: center;
     background-size: cover;
-    color:rgb(200, 200, 200);
+    color: rgb(200, 200, 200);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
 h1 {
     font-size: 3em;
-    color:rgb(212, 126, 27);
+    font-family: ASTERA, serif;
+    color: rgb(212, 126, 27);
 }
 
 h2 {
-    order:1;
+    order: 1;
     font-size: 1.5em;
-    color:#fff;
+    font-family: ASTERA, serif;
+    color: #fff;
     font-style: italic;
 }
+
+h3 {
+    font-family: ASTERA, serif;
+    color: rgb(167, 116, 7);
+}
+
 
 [role="banner"] {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .main h3 {
     font-size: 2em;
     text-align: center;
-    color:rgb(167, 116, 7);
 }
 
 a {
@@ -36,50 +52,80 @@ a {
 }
 
 .page-wrapper {
-    margin:auto;
+    margin: auto;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .intro {
-    width: 60%;
-
+    width: 70%;
+    background-size: 10%;
+    background:
+        url(https://img.freepik.com/free-photo/space-ladder-mars-science-fiction-painting-3d-illustration_456031-154.jpg?w=1380&t=st=1666881815~exp=1666882415~hmac=c4a9b5c83eba51946345b46ba33ff63aec676eaec8b827bb23c25c33a52281f0) no-repeat bottom center;
+    background-size: 70%;
 }
 
 .sidebar {
-    width: 20%;
-    order:-1;
-    margin:auto;
+    width: 25%;
+    order: -1;
+    margin: auto;
 
 }
 
 .wrapper div {
     border: 1px solid #000;
     margin: 15px;
-    background:rgba(153, 72, 72, 0.082);
+    background: rgba(153, 72, 72, 0.082);
+}
+
+.wrapper div a {
+    color: #fff;
+}
+
+.wrapper div a:hover {
+    color: #000;
+    background-color: white;
+}
+
+.wrapper div a:visited {
+    color: #f64a51;
+}
+
+.wrapper div ul {
+    list-style: none;
+    padding: 5px;
+}
+
+.wrapper div ul li {
+    background: url(../star.svg) no-repeat left bottom;
+    background-size: 15px;
+    height: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
 }
 
 .wrapper h3 {
     font-weight: 100;
-    font-size:1.2em;
-    color:rgb(167, 116, 7);
+    font-size: 2em;
+    color: rgb(167, 116, 7);
     padding-left: 3%;
 }
 
+
 .main {
-    margin:auto;
+    margin: auto;
     align-self: flex-end;
 }
 
 .main div {
     width: 80%;
-    margin:auto;
-    padding: 3em 0;
+    margin: auto;
+    padding: 1em 0;
 }
 
 *[role="contentinfo"] {
-    padding-top: 10em;
+    padding-top: 1em;
 }
 
 footer {
@@ -87,7 +133,21 @@ footer {
 }
 
 footer a {
-    color:#fff;
-    border: 1px solid #fff;
+    color: rgb(167, 116, 7);
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px dashed rgb(212, 151, 17);
     border-radius: 50%;
+    padding: 0.7em;
+    background-color: #142339;
+}
+
+footer a:visited {
+    color: #f64a51;
+}
+
+footer a:hover {
+    color:#142339;
+    border-color:#142339;
+    background-color: rgb(167, 116, 7);
 }
