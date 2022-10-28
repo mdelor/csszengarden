@@ -8,7 +8,7 @@
 }
 
 body {
-    background: url(/assets/background.webp) fixed;
+    background: url(../pictures/background.webp) fixed;
     background-position: center;
     background-size: cover;
     color: rgb(200, 200, 200);
@@ -70,7 +70,7 @@ a:visited {
 .intro {
     width: 70%;
     background-size: 10%;
-    background: url(/assets/insert.webp) no-repeat bottom center;
+    background: url(../pictures/insert.webp) no-repeat bottom center;
     background-size: 70%;
 }
 
@@ -102,7 +102,7 @@ a:visited {
 }
 
 .wrapper div ul li {
-    background: url(../star.svg) no-repeat left bottom;
+    background: url(../pictures/star.svg) no-repeat left bottom;
     background-size: 15px;
     height: 20px;
     padding-left: 20px;
