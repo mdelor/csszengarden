@@ -48,7 +48,16 @@ h3 {
 }
 
 a {
-    text-decoration: none;
+    color:#fff;
+}
+
+a:hover {
+    background-color: #fff ;
+    color: #000;
+}
+
+a:visited {
+    color: #f64a51;
 }
 
 .page-wrapper {
@@ -80,16 +89,12 @@ a {
 }
 
 .wrapper div a {
-    color: #fff;
+    text-decoration: none;
 }
 
 .wrapper div a:hover {
     color: #000;
     background-color: white;
-}
-
-.wrapper div a:visited {
-    color: #f64a51;
 }
 
 .wrapper div ul {
@@ -133,6 +138,7 @@ footer {
 }
 
 footer a {
+    text-decoration: none;
     color: rgb(167, 116, 7);
     font-weight: 500;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -140,10 +146,6 @@ footer a {
     border-radius: 50%;
     padding: 0.7em;
     background-color: #142339;
-}
-
-footer a:visited {
-    color: #f64a51;
 }
 
 footer a:hover {
