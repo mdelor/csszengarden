@@ -8,7 +8,7 @@
 }
 
 body {
-    background: url(https://img.freepik.com/free-photo/beautiful-shining-stars-night-sky_181624-622.jpg?w=1380&t=st=1666876814~exp=1666877414~hmac=aab9e5d66ebe4565e70ada53a6f7cbed330f152fdedaf173d125b2dadb53fd6f) fixed;
+    background: url(/assets/background.webp) fixed;
     background-position: center;
     background-size: cover;
     color: rgb(200, 200, 200);
@@ -70,8 +70,7 @@ a:visited {
 .intro {
     width: 70%;
     background-size: 10%;
-    background:
-        url(https://img.freepik.com/free-photo/space-ladder-mars-science-fiction-painting-3d-illustration_456031-154.jpg?w=1380&t=st=1666881815~exp=1666882415~hmac=c4a9b5c83eba51946345b46ba33ff63aec676eaec8b827bb23c25c33a52281f0) no-repeat bottom center;
+    background: url(/assets/insert.webp) no-repeat bottom center;
     background-size: 70%;
 }
 
